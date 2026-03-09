@@ -104,9 +104,6 @@ npm run build
 
 # 📬 Contact
 
-📧 Email: [rabbydev25@gmail.com](mailto:rabbydev25@gmail.com)
-
-
 ---
 
 # ⭐ Support
