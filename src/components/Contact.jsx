@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useFormik } from 'formik';
-import { motion } from 'framer-motion';
-import { FiMail, FiMapPin, FiSend, FiCheckCircle, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { motion } from "framer-motion";
+import { FiMail, FiMapPin, FiSend, FiCheckCircle, FiGithub, FiLinkedin, } from 'react-icons/fi';
 import emailjs from 'emailjs-com';
 import { FaWhatsapp } from 'react-icons/fa';
 

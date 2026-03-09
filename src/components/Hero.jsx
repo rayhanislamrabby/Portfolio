@@ -6,7 +6,7 @@ import { FiDownload } from "react-icons/fi";
 const Hero = () => {
   const containerRef = useRef(null);
   const textItems = useRef([]);
-
+console.log('hello wprld ')
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -60,26 +60,12 @@ const Hero = () => {
               className="px-7 py-3 rounded-xl bg-accent text-background font-bold text-sm hover:bg-cyan transition-colors duration-200 shadow-[0_0_20px_rgba(56,189,248,0.3)]">
               View Projects
             </a>
-         
-         
-         
-
-
 <a
-  href="https://drive.google.com/file/d/1TFtXPgYkItllvcqlbFy2RwWE3TFoJwhj/view?usp=sharing"
+  href="https://drive.google.com/file/d/1TFtXPgYkItllvcqlbFy2RwWE3TFoJwhj/view?usp=sharing" target='_blank'
   className="inline-flex items-center gap-2 px-7 py-3 rounded-xl border border-border text-textSecondary font-semibold text-sm hover:border-accent/40 hover:text-textPrimary transition-all duration-200"
 >
   <FiDownload /> Download CV
 </a>
-
-
-
-
-
-
-
-
-
 
           </div>
  
@@ -113,6 +99,7 @@ const Hero = () => {
            
           </motion.div>
         </div>
+
 
       </div> 
     </section>

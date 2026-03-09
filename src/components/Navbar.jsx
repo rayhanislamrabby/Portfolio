@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {  AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
-
+import { motion, } from 'framer-motion';
 const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },

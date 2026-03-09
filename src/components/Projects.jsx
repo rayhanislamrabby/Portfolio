@@ -55,9 +55,9 @@ const projectsData = [
     title: "Portfolio Builder",
     description:
       "Drag-and-drop portfolio builder with live preview and deploy integration.",
-    tags: ["React", "Redux", "Node.js"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tags: ["React",  "Node.js"],
+    github: "https://github.com/rayhanislamrabby/Portfolio",
+    live: "https://rabby-portfolio.netlify.app/",
     img: imgPortfolio,
     accent: "#8B5CF6",
   },
