@@ -65,12 +65,11 @@ const Navbar = () => {
 
           {/* Mobile toggle */}
           <div className="md:hidden flex items-center gap-3">
-            <a href="#contact" onClick={e => scrollTo(e, '#contact')} className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-accent text-background font-bold text-sm transition-colors duration-200 shadow-[0_0_20px_rgba(56,189,248,0.3)]">
-              Hire Me
-            </a>
+           
             <button onClick={() => setMenuOpen(!menuOpen)} className="text-textPrimary text-xl">
               {menuOpen ? <FiX /> : <FiMenu />}
             </button>
+            
           </div>
         </div>
       </motion.nav>
@@ -97,8 +96,18 @@ const Navbar = () => {
                 {link.name}
               </motion.a>
             ))}
+
+<a 
+  href="#contact" 
+  onClick={e => scrollTo(e, '#contact')} 
+  className="inline-flex items-center justify-center gap-2 w-full px-6 py-4 md:px-4 md:py-2 rounded-xl bg-accent text-background font-bold text-sm transition-colors duration-200 shadow-[0_0_20px_rgba(56,189,248,0.3)]"
+>
+  Hire Me
+</a>
           </motion.div>
+          
         )}
+        
       </AnimatePresence>
     </>
   );

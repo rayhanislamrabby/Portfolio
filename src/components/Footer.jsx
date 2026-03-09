@@ -5,8 +5,8 @@ import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 
 const socials = [
   { icon: FiGithub,   href: 'https://github.com/rayhanislamrabby',    label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://linkedin.com/rayhanislamrabby',  label: 'LinkedIn' },
-    { icon: FaWhatsapp,     href: 'https://whatsapp.com',label: 'Whatsapp' },
+  { icon: FiLinkedin, href: 'https://linkedin.com/in/rayhanislamrabby',  label: 'LinkedIn' },
+    { icon: FaWhatsapp,     href: 'https://wa.me/8801315110644',label: 'Whatsapp' },
   { icon: FaFacebook,     href: 'https://facebook.com/abirahmedrabbyyy',label: 'Facebook' },
  
     { icon: BsInstagram,     href: 'https://instagram.com/abir_ahmed_rabby',label: 'Instagram' },

@@ -3,6 +3,7 @@ import { useFormik } from 'formik';
 import { motion } from 'framer-motion';
 import { FiMail, FiMapPin, FiSend, FiCheckCircle, FiGithub, FiLinkedin } from 'react-icons/fi';
 import emailjs from 'emailjs-com';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const validate = v => {
   const e = {};
@@ -183,8 +184,8 @@ await emailjs.send(
             <div className="flex gap-4">
               {[
                 { icon: FiGithub, label: 'GitHub', href: 'https://github.com/rayhanislamrabby', color: '#F1F5F9' },
-                { icon: FiLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/rayhanislamrabby', color: '#0A66C2' },
-                { icon: FiMail, label: 'Email', href: 'rabbydev25@gmail.com', color: '#38BDF8' },
+                { icon: FiLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/rayhanislamrabby/', color: '#0A66C2' },
+                { icon: FaWhatsapp, label: 'Whatsapp', href: 'https://wa.me/8801315110644', color: '#38BDF8' },
               ].map(({ icon: Icon, label, href, color }) => (
                 <a key={label} href={href} target="_blank" rel="noreferrer"
                   className="flex items-center gap-2 px-4 py-3 rounded-xl border border-border text-textSecondary hover:text-textPrimary hover:border-accent/30 transition-all duration-200 text-sm font-medium flex-1 justify-center">
