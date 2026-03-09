@@ -2,24 +2,30 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 const experiences = [
-  {
-    year: '2022 – 2023',
-    role: ' Frontend Developer',
-    company: '',
-    desc: 'Led a team of 5 to build scalable e-commerce platforms. Improved app speed by 40% and implemented robust CI/CD pipelines.',
-  },
-  {
-    year: '2023 – 2024',
-    role: 'React Developer',
-    company: 'Ujjal LLC',
-    desc: 'Built real-time dashboards using React, Node.js, and Socket.io. Integrated payment gateways and third-party APIs.',
-  },
-  {
-    year: '2025-present',
-    role: 'Full Stack Developer',
-    company: '',
-    desc: 'Delivered pixel-perfect, responsive UIs. Specialized in React and advanced state management with Redux.',
-  },
+ {
+  year: '',
+  role: 'Frontend Developer',
+  company: '',
+  desc: 'Developed responsive user interfaces using React.js and Tailwind CSS. Optimized component performance and ensured cross-browser compatibility to deliver a smooth user experience.',
+},
+{
+  year: '',
+  role: 'React Developer',
+  company: '',
+  desc: 'Built dynamic single-page applications using React.js, and REST APIs. Improved application performance by implementing reusable components and efficient state management.',
+},
+{
+  year: '',
+  role: 'Backend Developer',
+  company: '',
+  desc: 'Designed and developed RESTful APIs using Node.js and Express.js. Managed MongoDB databases, implemented authentication systems, and ensured secure and scalable backend services.',
+},
+{
+  year: '',
+  role: 'Full Stack Developer',
+  company: '',
+  desc: 'Developed full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Integrated frontend with backend APIs, implemented authentication, and deployed applications on cloud platforms.',
+}
 ];
 
 const About = () => {

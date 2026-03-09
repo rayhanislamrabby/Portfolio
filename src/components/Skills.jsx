@@ -5,10 +5,11 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaNodeJs,
   FaGitAlt, FaGithub, FaAws, FaChrome, FaUbuntu, FaCloud, FaFire
 } from 'react-icons/fa';
-import { SiTailwindcss, SiRedux, SiMui, SiExpress, SiMongodb, SiMongoose, SiNetlify, SiDaisyui } from 'react-icons/si';
+import { SiTailwindcss, SiRedux, SiMui, SiExpress, SiMongodb, SiMongoose, SiNetlify, SiDaisyui, SiPnpm } from 'react-icons/si';
 import { FiCode } from 'react-icons/fi';
-import { CgVercel } from 'react-icons/cg';
+import { CgNpm, CgVercel } from 'react-icons/cg';
 import { VscCode, VscCodeOss } from 'react-icons/vsc';
+import { RiNextjsFill } from 'react-icons/ri';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,7 +22,8 @@ const categories = [
       { name: 'JavaScript',  Icon: FaJs,          color: '#F7DF1E' },
       { name: 'Tailwind',    Icon: SiTailwindcss, color: '#06B6D4' },
       { name: 'React JS',    Icon: FaReact,       color: '#61DAFB' },
-      // { name: 'Redux',       Icon: SiRedux,      color: '#764ABC' },
+      { name: 'Nextjs Js',       Icon: RiNextjsFill,      color: '#764ABC' },
+    
       { name: 'Formik',      Icon: FiCode,        color: '#0050CB' },
        { name: 'DaisyUI',     Icon: SiDaisyui,  color: '#0050CB' },
       { name: 'Material UI', Icon: SiMui,         color: '#007FFF' },
@@ -56,6 +58,8 @@ const categories = [
       { name: 'Vercel',   Icon: CgVercel,    color: '#F1F5F9' },
       { name: 'Netlify',  Icon: SiNetlify,   color: '#00C7B7' },
       { name: 'Firebase', Icon: FaFire,    color: '#FFCA28' },
+       { name: 'NPM',       Icon: CgNpm,      color: '#764ABC' },
+       { name: 'PNPM',       Icon: SiPnpm,      color: '#764ABC' },
     ]
   }
 ];

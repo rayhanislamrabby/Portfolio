@@ -175,7 +175,7 @@ await emailjs.send(
                 <div className="p-3 rounded-xl bg-cyan/10 text-cyan"><FiCheckCircle size={18} /></div>
                 <div>
                   <p className="text-sm font-semibold text-textPrimary">Availability</p>
-                  <p className="text-sm text-textSecondary mt-0.5">Open to full-time & freelance</p>
+                  <p className="text-sm text-textSecondary mt-0.5">Open to full-time </p>
                 </div>
               </div>
             </div>
