@@ -1,16 +1,116 @@
-# React + Vite
+# 💼 Rabby Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Developer Portfolio Website** built with **React.js, Tailwind CSS, Framer Motion animations, and EmailJS**.
 
-Currently, two official plugins are available:
+This portfolio showcases my projects, technical skills, and contact information for potential clients and recruiters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Website:**
+https://rabby-dev.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Features
 
-## Expanding the ESLint configuration
+* Modern UI/UX Design
+* Fully Responsive (Mobile, Tablet, Desktop)
+* Smooth Animations with Framer Motion
+* Projects Showcase Section
+* Skills Section with Tech Logos
+* Contact Form with EmailJS
+* Download CV Feature
+* Hire Me Button (Direct Email)
+* Social Media Links
+* Hosted on Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+* React JS
+* Tailwind CSS
+* JavaScript (ES6+)
+* React Router
+* Axios
+* TanStack Query
+* Framer Motion
+* GSAP Animations
+
+## Backend / Services
+
+* EmailJS (Contact Form)
+
+## Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* MongoDB Compass
+* Chrome
+
+## Deployment
+
+* Netlify
+* Vercel
+* Firebase
+
+---
+
+# 📂 Sections in Portfolio
+
+* Hero Section
+* About Me
+* Skills
+* Projects
+* Services
+* Contact
+* Footer
+
+---
+
+# 📸 Screenshots
+
+(Add portfolio screenshots here)
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+# 📬 Contact
+
+📧 Email: [rabbydev25@gmail.com](mailto:rabbydev25@gmail.com)
+
+
+---
+
+# ⭐ Support
+
+If you like this project, please ⭐ the repository on GitHub.
