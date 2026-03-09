@@ -70,9 +70,7 @@ https://rabby-dev.netlify.app/
 
 ---
 
-# 📸 Screenshots
 
-(Add portfolio screenshots here)
 
 ---
 
