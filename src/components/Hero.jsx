@@ -61,7 +61,7 @@ console.log('hello wprld ')
               View Projects
             </a>
 <a
-  href="https://drive.google.com/file/d/1TFtXPgYkItllvcqlbFy2RwWE3TFoJwhj/view?usp=sharing" target='_blank'
+  href="https://drive.google.com/file/d/1hOjoK6rQWKdZoAHBbSI8of687Wq7fYEX/view?usp=sharing" target='_blank'
   className="inline-flex items-center gap-2 px-7 py-3 rounded-xl border border-border text-textSecondary font-semibold text-sm hover:border-accent/40 hover:text-textPrimary transition-all duration-200"
 >
   <FiDownload /> Download CV
