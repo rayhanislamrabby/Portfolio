@@ -5,7 +5,7 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaNodeJs,
   FaGitAlt, FaGithub, FaAws, FaChrome, FaUbuntu, FaCloud, FaFire
 } from 'react-icons/fa';
-import { SiTailwindcss, SiRedux, SiMui, SiExpress, SiMongodb, SiMongoose, SiNetlify, SiDaisyui, SiPnpm } from 'react-icons/si';
+import { SiTailwindcss, SiRedux, SiMui, SiExpress, SiMongodb, SiMongoose, SiNetlify, SiDaisyui, SiPnpm, SiNodemon } from 'react-icons/si';
 import { FiCode } from 'react-icons/fi';
 import { CgNpm, CgVercel } from 'react-icons/cg';
 import { VscCode, VscCodeOss } from 'react-icons/vsc';
@@ -49,7 +49,7 @@ const categories = [
     skills: [
       { name: 'Git',      Icon: FaGitAlt,  color: '#F05032' },
       { name: 'GitHub',   Icon: FaGithub,  color: '#F1F5F9' },
-      // { name: 'EC2',      Icon: FaAws,     color: '#FF9900' },
+      { name: 'Nodemon',      Icon: SiNodemon,     color: '#FF9900' },
       { name: 'VS Code',  Icon: VscCode,    color: '#007ACC' },
       { name: 'Chrome',   Icon: FaChrome,  color: '#4285F4' },
       { name: 'Compass',  Icon: SiMongodb, color: '#47A248' },
